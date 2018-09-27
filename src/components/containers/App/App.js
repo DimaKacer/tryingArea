@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './../Header'
+import Header from './../../modules/Header'
 import './App.css';
 
 export class App extends React.Component {
@@ -8,7 +8,7 @@ export class App extends React.Component {
       <div className="App">
         <Header />
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started, edit <strong>src/App.js</strong> and save to reload.
         </p>
       </div>
     );
