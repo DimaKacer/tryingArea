@@ -60,13 +60,13 @@ export class App extends React.Component {
           To get started, edit <strong>src/App.js</strong> and save to reload.
         </p>
         <div>
-          {/* <List
+          <List
             firstListData={firstListData}
             secondListData={secondListData}
             // title="List of data first"
-          /> */}
+          />
         </div>
-        {this.renderContent(jsonData)}
+        {/* {this.renderContent(jsonData)} */}
       </div>
     );
   }

@@ -12,3 +12,11 @@
 .coll-3:last-child {
   border:none;
 }
+
+.numiric > li {
+  list-style-type: decimal-leading-zero !important;
+}
+
+.numiric > li > ul {
+  padding: 0 0 0 15px;
+}

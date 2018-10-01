@@ -2,12 +2,12 @@
 // export const sortingByAlphabet = (currentArray, option) => {
 // export const sortingByAlphabet = (a, b) => {
 export const sortingByAlphabet = (array, option) => {
-  const arrayModifier = array.slice(0);
+  const arrayModified  = array.slice(0);
   // const byTitle = arr.slice(0);
   // console.log(7, byTitle)
   // console.log(8, option)
 // 
-  arrayModifier.sort((a,b) => {
+arrayModified.sort((a,b) => {
     const x = a[option].toLowerCase();
     const y = b[option].toLowerCase();
     return (
@@ -15,7 +15,7 @@ export const sortingByAlphabet = (array, option) => {
     )
   })
 
-  return arrayModifier
+  return arrayModified
 }
 
 // export const sortingByAlphabet2 = (currentArray, option) => {
